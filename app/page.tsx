@@ -82,7 +82,9 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4">About Me</h2>
             <p className="text-muted-foreground mb-8">
               Frontend developer with 2 years of hands-on experience building modern web applications. Passionate about
-              creating intuitive user interfaces and delivering exceptional user experiences.
+              creating intuitive user interfaces and delivering exceptional user experiences. 
+              I'm currently working as a full-time Software Developer at
+              <a href="https://www.eventhq.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"> EventHQ</a>.
             </p>
             <div className="flex flex-wrap gap-2 justify-center">
               {skills.map((skill, index) => (
